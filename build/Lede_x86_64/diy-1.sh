@@ -7,3 +7,8 @@
 # 相同的文件都拉一起，因为有一些可能还是其他大神修改过的容易造成编译错误的
 # 想要什么插件就单独的拉取什么插件就好，或者告诉我，我把插件放我的插件包就行了
 # 软件包地址：https://github.com/281677160/openwrt-package
+svn co https://github.com/kenzok8/openwrt-packages/tree/master/luci-app-ssr-plus
+svn co https://github.com/kenzok8/openwrt-packages/tree/master/luci-app-openclash
+svn co https://github.com/kenzok8/openwrt-packages/tree/master/luci-app-passwall
+svn co https://github.com/kenzok8/openwrt-packages/tree/master/luci-app-clash
+src-git small https://github.com/kenzok8/small
